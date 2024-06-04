@@ -1,0 +1,31 @@
+/* src/Card.css */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea si no caben */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  gap: 20px; /* Espacio entre las tarjetas */
+  
+}
+
+.card {
+  flex: 0 1 calc(33.333% - 32px); /* Ajusta el tamaño de las tarjetas */
+  margin: 16px;
+  box-sizing: border-box;
+  border-radius: 8px; /* Añade bordes redondeados a la tarjeta */
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro para mejorar la legibilidad */
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.card-image {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 8px 8px 0 0;  
+}
+
+.card h2, .card h3, .card p {
+  margin: 8px 0;
+  
+}

@@ -1,0 +1,35 @@
+/* Estilo general del header */
+header {
+    background-color: #333; /* Color de fondo del header */
+    padding: 5px; /* Espaciado interno del header */
+    text-align: center; /* Centrando el contenido */
+    color: white; /* Color del texto */
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0; /* Establece la posición superior a 0 */
+    left: 0; /* Establece la posición izquierda a 0 */
+    width: 100%; /* Hace que el header ocupe todo el ancho de la página */
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+  }
+  
+  /* Estilo para el div con la clase titulo */
+  .titulo {
+    font-family: 'Arial', sans-serif; /* Familia de fuentes para el título */
+    font-size: 2em; /* Tamaño de fuente del título */
+    font-weight: bold; /* Peso de la fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    margin: 0; /* Sin margen */
+    color: yellow;
+    font-family:'Courier New', Courier, monospace ;
+  }
+  
+  /* Estilo para el h1 dentro del div titulo */
+  .titulo h1 {
+    margin: 0; /* Sin margen */
+  }
+  
+  /* Añade un padding-top al body para evitar que el contenido quede oculto detrás del header fijo */
+  body {
+    padding-top: 80px; /* Ajusta este valor según la altura del header */
+  }
+  
+  
