@@ -8,6 +8,8 @@ import Pizza from './data/Pizza'; // Import
 import './App.css';
 import empanadas from './data/Empanadas';
 
+
+
 function App() {
   return (
     <div className="App">
@@ -24,8 +26,7 @@ function App() {
             image={item.image}
           />))}
       </div>
-      <h1 className='tittle-hambur'>
-        Pizzas</h1>
+      <h1 className='tittle-hambur'>Pizzas</h1>
       <div className="cards-container">
       {Pizza.map(item => (
           <Card
@@ -47,6 +48,9 @@ function App() {
             precio={item.precio}
             image={item.image}
           />))}
+</div>
+<div>
+
 </div>
     </div>
   );

@@ -1,7 +1,6 @@
 /* Estilo general del header */
 header {
     background-color: #333; /* Color de fondo del header */
-    padding: 5px; /* Espaciado interno del header */
     text-align: center; /* Centrando el contenido */
     color: white; /* Color del texto */
     position: fixed; /* Fija el header en la parte superior */
@@ -9,6 +8,8 @@ header {
     left: 0; /* Establece la posición izquierda a 0 */
     width: 100%; /* Hace que el header ocupe todo el ancho de la página */
     z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    background-image: url(https://st3.depositphotos.com/11678366/31902/i/450/depositphotos_319024864-stock-photo-defocused-lights-warm-shade-festive.jpg);
+    border-radius: 2px;
   }
   
   /* Estilo para el div con la clase titulo */
@@ -32,4 +33,26 @@ header {
     padding-top: 80px; /* Ajusta este valor según la altura del header */
   }
   
-  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}

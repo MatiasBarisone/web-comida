@@ -1,5 +1,8 @@
 .tittle-hambur{
+    
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     font-family:'Courier New', Courier, monospace ;
+    /*background: rgba(180, 137, 19, 0.411); /* Fondo semitransparente negro para mejorar la legibilidad */
+    /*border-radius: 100px; /* Opcional: para redondear los bordes */
 }
