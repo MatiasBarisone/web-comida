@@ -1,16 +1,14 @@
 /* Estilo general del header */
 header {
-    background-color: #333; /* Color de fondo del header */
-    text-align: center; /* Centrando el contenido */
-    color: white; /* Color del texto */
-    position: fixed; /* Fija el header en la parte superior */
-    top: 0; /* Establece la posición superior a 0 */
-    left: 0; /* Establece la posición izquierda a 0 */
-    width: 100%; /* Hace que el header ocupe todo el ancho de la página */
-    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
-    background-image: url(https://st3.depositphotos.com/11678366/31902/i/450/depositphotos_319024864-stock-photo-defocused-lights-warm-shade-festive.jpg);
-    border-radius: 2px;
-  }
+  text-align: center; /* Centrando el contenido */
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0; /* Establece la posición superior a 0 */
+  left: 0; /* Establece la posición izquierda a 0 */
+  width: 100%; /* Hace que el header ocupe todo el ancho de la página */
+  z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+}
+
+
   
   /* Estilo para el div con la clase titulo */
   .titulo {
@@ -19,8 +17,10 @@ header {
     font-weight: bold; /* Peso de la fuente */
     text-transform: uppercase; /* Texto en mayúsculas */
     margin: 0; /* Sin margen */
-    color: yellow;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.2);
     font-family:'Courier New', Courier, monospace ;
+    padding-bottom: 10px;
   }
   
   /* Estilo para el h1 dentro del div titulo */
@@ -50,9 +50,10 @@ header {
     text-decoration: none;
     padding: 10px 20px;
     transition: background-color 0.3s ease;
+    
 }
 
 .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }

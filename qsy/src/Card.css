@@ -20,13 +20,29 @@
 }
 
 .card-image {
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 8px 8px 0 0;  
+  display: block; /* Hace que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 4px; /* Bordes redondeados de la imagen */ 
 }
 
 .card h2, .card h3, .card p {
   margin: 8px 0;
   
   
+}
+
+.whatsapp-button {
+  display: inline-block; /* Para que el padding funcione */
+  background-color: #25D366; /* Color de fondo de WhatsApp */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Elimina el subrayado */
+  transition: background-color 0.3s ease; /* Transición suave */
+  margin-top: 10px; /* Espacio encima del botón */
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E; /* Color de fondo al pasar el mouse */
 }

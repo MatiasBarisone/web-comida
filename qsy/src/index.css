@@ -28,9 +28,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ef/Restaurant_N%C3%A4sinneula.jpg);
+  background-image: url(/IMG/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+ 
 }
 
 h1 {
